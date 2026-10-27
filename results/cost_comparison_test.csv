@@ -1,0 +1,6 @@
+strategy,failures_caught,failures_missed,false_alarms,total_cost_eur,cost_per_1000_runs_eur,saving_vs_run_to_failure
+Run to failure (no prediction),0,68,0,680000,340000,0.0
+Rule of thumb: change tool at 200 min,26,42,149,546500,273250,0.196
+"ML model, default threshold 0.50",55,13,3,241500,120750,0.645
+"ML model, cost-optimal threshold 0.34",58,10,8,220000,110000,0.676
+ML model + planned tool change at 205 min,64,4,113,224500,112250,0.67

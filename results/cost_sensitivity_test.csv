@@ -1,0 +1,6 @@
+unplanned_failure_cost_eur,model_only_eur,model_plus_tool_change_eur,cheaper
+5000,170000,204500,model only
+10000,220000,224500,model only
+20000,320000,264500,model + tool change
+50000,620000,384500,model + tool change
+100000,1120000,584500,model + tool change

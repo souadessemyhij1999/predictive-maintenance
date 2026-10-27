@@ -1,0 +1,7 @@
+# Cost assumptions used to choose the alarm threshold (EUR).
+# ILLUSTRATIVE values for a production line - replace them with real figures from a plant
+# controller; the threshold and the savings in the README are recalculated automatically.
+
+unplanned_failure: 10000   # machine breaks without warning: unplanned downtime, scrap, emergency repair
+planned_intervention: 2000 # failure predicted in time: planned stop, tool change / repair in a scheduled slot
+false_alarm: 500           # alarm raised but the machine was fine: inspection time, short stop

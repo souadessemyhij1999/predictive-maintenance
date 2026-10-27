@@ -1,0 +1,30 @@
+{
+  "model": "Random forest",
+  "features": [
+    "type",
+    "air_temp_k",
+    "process_temp_k",
+    "speed_rpm",
+    "torque_nm",
+    "tool_wear_min",
+    "temp_diff_k",
+    "power_w",
+    "strain"
+  ],
+  "threshold": 0.34,
+  "tool_change_limit_min": 205,
+  "costs_eur": {
+    "unplanned_failure": 10000,
+    "planned_intervention": 2000,
+    "false_alarm": 500
+  },
+  "test_scores": {
+    "PR-AUC": 0.88,
+    "ROC-AUC": 0.979,
+    "Recall": 0.853,
+    "Precision": 0.879,
+    "F1": 0.866
+  },
+  "breakeven_breakdown_cost_eur": 10750,
+  "trained_on": "AI4I 2020, all 10,000 runs (evaluation used an 80/20 split)"
+}

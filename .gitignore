@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Raw datasets are downloaded at runtime (see src/data.py) and not committed
+data/
+
+# Output of predict.py runs
+results/maintenance_worklist.csv
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+detector,event,detected,warning_hours_before_label
+Static limit,11 Dec 2013 06:00,True,23.6
+Static limit,16 Dec 2013 17:25,True,12.0
+Static limit,28 Jan 2014 13:55,True,0.6
+Static limit,08 Feb 2014 14:30,True,22.8
+Rolling z-score,11 Dec 2013 06:00,True,5.4
+Rolling z-score,16 Dec 2013 17:25,True,20.7
+Rolling z-score,28 Jan 2014 13:55,False,
+Rolling z-score,08 Feb 2014 14:30,True,-21.8
+Isolation Forest,11 Dec 2013 06:00,True,7.1
+Isolation Forest,16 Dec 2013 17:25,True,18.2
+Isolation Forest,28 Jan 2014 13:55,False,
+Isolation Forest,08 Feb 2014 14:30,True,-21.8

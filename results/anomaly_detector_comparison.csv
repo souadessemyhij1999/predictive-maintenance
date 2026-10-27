@@ -1,0 +1,4 @@
+detector,events_detected,median_warning_hours,false_alarm_events,false_alarms_per_week
+Static limit,4/4,17.4,5,0.5
+Rolling z-score,3/4,5.4,31,3.0
+Isolation Forest,3/4,7.1,13,1.3

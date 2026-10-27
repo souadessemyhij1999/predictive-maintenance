@@ -1,0 +1,6 @@
+model,PR-AUC,ROC-AUC,Recall,Precision,F1
+Rule of thumb: change tool at 200 min,,,0.358,0.155,0.216
+Logistic regression,0.455,0.922,0.841,0.161,0.271
+Random forest,0.893,0.977,0.786,0.964,0.866
+Gradient boosting (raw sensors only),0.792,0.967,0.638,0.836,0.724
+Gradient boosting,0.875,0.968,0.801,0.948,0.868
